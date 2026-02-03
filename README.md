@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# 💰 Expense Tracker Application
 
-## Project info
+An intuitive and user-friendly **Expense Tracker Application** that helps users monitor their daily spending, understand where their money goes, and make smarter financial decisions using visual insights.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🔐 User Login (Email-based)
+- 💵 Add Monthly Income
+- 🧾 Add & Manage Expenses
+- 📊 Visual Expense Analysis (Charts & Graphs)
+- 📉 Identify Wasteful Spending
+- 💰 Calculate Savings Automatically
+- 📱 Responsive & Modern UI
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React + TypeScript  
+- **Build Tool:** Vite  
+- **UI Components:** shadcn-ui  
+- **Styling:** Tailwind CSS  
+- **Charts:** Chart-based visual representation  
+- **Platform:** Lovable  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📸 Screens & Visuals
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Pie chart for category-wise expenses  
+- Bar/Line chart for monthly spending trends  
+- Dashboard view for income, expenses, and savings  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚙️ How the Application Works
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. User logs in using email
+2. User enters income details
+3. User adds expenses with category and amount
+4. Application analyzes spending
+5. Visual charts display expense patterns
+6. Savings are calculated automatically
+7. User can identify and reduce unnecessary expenses
 
-# Step 3: Install the necessary dependencies.
-npm i
+#### Prerequisites
+- Node.js
+- npm
+- Git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+#### Steps
+```bash
+git clone https://github.com/gautham-8087/Expense-Tracker-Application.git
+cd Expense-Tracker-Application
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
